@@ -1,0 +1,79 @@
+/* style.css */
+
+/* Gaya untuk Navbar */
+.navbar {
+    box-shadow: 0 4px 6px rgba(249, 248, 248, 0.948);
+}
+
+/* Gaya untuk Beranda */
+#beranda {
+    background: url('town.jpg') no-repeat center center;
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(235, 225, 225, 0.5);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Gaya untuk Biodata */
+#biodata ul.list-group {
+    font-size: 1rem;
+}
+
+#biodata img {
+    border: 5px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk Pendidikan */
+#pendidikan i {
+    color: #007bff;
+}
+
+#pendidikan h5 {
+    margin-top: 10px;
+}
+
+/* Gaya untuk Keahlian */
+#keahlian h5 {
+    font-weight: bold;
+    color: #343a40;
+}
+
+/* Gaya untuk Pekerjaan */
+#pekerjaan .card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#pekerjaan .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Gaya untuk Form Kontak */
+#kontak form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#kontak .form-label {
+    font-weight: bold;
+}
+
+#kontak .btn-primary {
+    width: 100%;
+    padding: 10px;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    #biodata img {
+        max-width: 150px;
+    }
+
+    #keahlian h5,
+    #pendidikan h5 {
+        font-size: 1.1rem;
+    }
+}
